@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
                        DESC
   s.homepage         = 'https://github.com/MRhimi/WalletExtensionsKit'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Your Name' => 'you@example.com' }
-  s.source           = { :git => 'https://github.com/MRhimi/WalletExtensionsKit.git', :tag => s.version.to_s }
+  s.author           = { 'MRhimi' => 'mohamed.rhimi@icloud.com' }
+  s.source           = s.source = { :git => 'https://github.com/Test/WalletExtensionsKit.git', :branch => 'main' }
   s.ios.deployment_target = '13.0'
   s.source_files = 'WalletExtensionsKit/**/*.{h,m,swift}'
   s.exclude_files = 'WalletExtensionsKit/Exclude'
